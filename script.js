@@ -23,7 +23,7 @@ function adicionarNovaNota(texto = ''){
         </div>
 
         <div class="main ${texto ? "" : "hidden"}"></div>
-        <textarea class = "${texto ? "hidden" : ""}" name="" id="" cols="30" rows="25"></textarea>
+        <textarea class = "${texto ? "hidden" : ""}" name="" id="" cols="30" rows="10"></textarea>
         </div>
         `;
 
@@ -45,7 +45,7 @@ function adicionarNovaNota(texto = ''){
         textarea.classList.toggle('hidden');
     })
 
-    textarea.addEventListener('click', () => {
+    textarea.addEventListener('input', (e) => {
         const {value} = e.target;
         main.innerHTML = marked(value);
         storage();
