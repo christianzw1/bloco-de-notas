@@ -34,7 +34,7 @@ body{
 
 .nota{
     background-color: var(--white);
-    margin: 20px 150px;
+    margin: 20px 80px;
     height: 400px ;
     
 }
@@ -65,4 +65,5 @@ textarea{
     font-size: 1.2rem;
     border: none;
     padding: 10px;
+    position: inherit;
 }
