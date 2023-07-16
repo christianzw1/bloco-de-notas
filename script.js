@@ -23,7 +23,7 @@ function adicionarNovaNota(texto = ''){
         </div>
 
         <div class="main ${texto ? "" : "hidden"}"></div>
-        <textarea class = "${texto ? "hidden" : ""}" name="" id="" cols="70" rows="20"></textarea>
+        <textarea class = "${texto ? "hidden" : ""}" name="" id="" cols="30" rows="10"></textarea>
         </div>
         `;
 
