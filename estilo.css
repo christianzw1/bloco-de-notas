@@ -13,7 +13,7 @@ body{
     margin: 0;
     display: flex;
     background-color: #343541;
-    background-image: url(imagens/1318404.png);
+    background-image: url(imagens/468739.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,7 +36,7 @@ body{
 .nota{
     background-color: #202123;
     margin: 20px 80px;
-    height: 400px ;
+    height: 600px ;
     color: white;
     
 }
